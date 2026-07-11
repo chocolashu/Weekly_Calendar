@@ -1,0 +1,130 @@
+{
+  "eventTagPalette": {
+    "仕事": "#facc15",
+    "副業": "#fb923c",
+    "家事": "#ef4444",
+    "遊び": "#3b82f6"
+  },
+  "eventTagOptions": [
+    { "key": "仕事", "label": "仕事" },
+    { "key": "副業", "label": "副業" },
+    { "key": "家事", "label": "家事" },
+    { "key": "遊び", "label": "遊び" }
+  ],
+  "weeklyTemplateOptions": ["None", "Focus Week", "Team Week", "Client Week"],
+  "dailyTemplateOptions": ["None", "Balanced Day", "Deep Work Day", "Meeting Day"],
+  "weeklyTemplateSamples": {
+    "Focus Week": [
+      { "day": "Mon", "title": "Planning", "startHour": 8, "duration": 2, "tag": "仕事" },
+      { "day": "Tue", "title": "Design review", "startHour": 10, "duration": 1, "tag": "仕事" },
+      { "day": "Wed", "title": "Sprint review", "startHour": 13, "duration": 2, "tag": "副業" },
+      { "day": "Thu", "title": "Deep work", "startHour": 14, "duration": 2, "tag": "仕事" },
+      { "day": "Fri", "title": "Wrap-up", "startHour": 15, "duration": 1, "tag": "遊び" }
+    ],
+    "Team Week": [
+      { "day": "Mon", "title": "Standup", "startHour": 9, "duration": 1, "tag": "仕事" },
+      { "day": "Tue", "title": "Platform sync", "startHour": 11, "duration": 1, "tag": "副業" },
+      { "day": "Wed", "title": "Roadmap", "startHour": 12, "duration": 2, "tag": "仕事" },
+      { "day": "Thu", "title": "Workshop", "startHour": 14, "duration": 2, "tag": "副業" },
+      { "day": "Fri", "title": "Demo", "startHour": 16, "duration": 1, "tag": "遊び" }
+    ],
+    "Client Week": [
+      { "day": "Mon", "title": "Kickoff", "startHour": 10, "duration": 1, "tag": "仕事" },
+      { "day": "Tue", "title": "Proposal review", "startHour": 11, "duration": 2, "tag": "副業" },
+      { "day": "Wed", "title": "Client call", "startHour": 13, "duration": 1, "tag": "仕事" },
+      { "day": "Thu", "title": "Status update", "startHour": 15, "duration": 1, "tag": "仕事" },
+      { "day": "Fri", "title": "Delivery check", "startHour": 17, "duration": 1, "tag": "副業" }
+    ]
+  },
+  "dailyTemplateSamples": {
+    "Balanced Day": [
+      { "title": "Morning focus", "startHour": 9, "duration": 1, "tag": "仕事" },
+      { "title": "Check-in", "startHour": 11, "duration": 1, "tag": "家事" },
+      { "title": "Review", "startHour": 15, "duration": 1, "tag": "遊び" }
+    ],
+    "Deep Work Day": [
+      { "title": "Deep work", "startHour": 9, "duration": 2, "tag": "仕事" },
+      { "title": "Implementation", "startHour": 13, "duration": 2, "tag": "副業" }
+    ],
+    "Meeting Day": [
+      { "title": "Intro", "startHour": 10, "duration": 1, "tag": "仕事" },
+      { "title": "Meeting", "startHour": 11, "duration": 1, "tag": "副業" },
+      { "title": "Status review", "startHour": 15, "duration": 1, "tag": "仕事" }
+    ]
+  },
+  "sampleExistingSchedule": [
+    {
+      "id": "existing-2026-07-01-09:00",
+      "title": "Project kickoff",
+      "start": "2026-07-01T09:00:00",
+      "end": "2026-07-01T10:30:00",
+      "tag": "仕事",
+      "backgroundColor": "#facc15",
+      "borderColor": "#facc15"
+    },
+    {
+      "id": "existing-2026-07-02-13:00",
+      "title": "Client sync",
+      "start": "2026-07-02T13:00:00",
+      "end": "2026-07-02T14:00:00",
+      "tag": "副業",
+      "backgroundColor": "#fb923c",
+      "borderColor": "#fb923c"
+    },
+    {
+      "id": "existing-2026-07-03-10:00",
+      "title": "Design review",
+      "start": "2026-07-03T10:00:00",
+      "end": "2026-07-03T11:00:00",
+      "tag": "仕事",
+      "backgroundColor": "#facc15",
+      "borderColor": "#facc15"
+    },
+    {
+      "id": "existing-2026-07-06-09:00",
+      "title": "Roadmap",
+      "start": "2026-07-06T09:00:00",
+      "end": "2026-07-06T11:00:00",
+      "tag": "仕事",
+      "backgroundColor": "#facc15",
+      "borderColor": "#facc15"
+    },
+    {
+      "id": "existing-2026-07-07-14:00",
+      "title": "Retro",
+      "start": "2026-07-07T14:00:00",
+      "end": "2026-07-07T15:00:00",
+      "tag": "遊び",
+      "backgroundColor": "#3b82f6",
+      "borderColor": "#3b82f6"
+    },
+    {
+      "id": "existing-2026-07-09-11:00",
+      "title": "Ops check",
+      "start": "2026-07-09T11:00:00",
+      "end": "2026-07-09T12:00:00",
+      "tag": "家事",
+      "backgroundColor": "#ef4444",
+      "borderColor": "#ef4444"
+    },
+    {
+      "id": "existing-2026-07-10-15:00",
+      "title": "Wrap-up",
+      "start": "2026-07-10T15:00:00",
+      "end": "2026-07-10T16:00:00",
+      "tag": "仕事",
+      "backgroundColor": "#facc15",
+      "borderColor": "#facc15"
+    }
+  ],
+  "defaultWeeklyTemplate": "None",
+  "defaultDailyTemplateByDay": {
+    "Sun": "None",
+    "Mon": "None",
+    "Tue": "None",
+    "Wed": "None",
+    "Thu": "None",
+    "Fri": "None",
+    "Sat": "None"
+  }
+}
