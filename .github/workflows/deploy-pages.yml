@@ -34,15 +34,11 @@ jobs:
       - name: Build static export
         run: npm run build
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@1
         with:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           projectName: "timetable-template"
-          directory: ./.next
+          directory: .next
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
